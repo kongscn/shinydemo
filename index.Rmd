@@ -5,6 +5,11 @@ date: "Friday, July 05, 2014"
 runtime: shiny
 ---
 
+**Note**: Links of the table of contents may be broken.
+This should be a bug of <shinyapps.io> or of the shiny server.
+Source file of this app can be fond at my 
+[repo](https://github.com/kongscn/shinydemo).
+
 # R Markdown
 
 This is an R Markdown document. 
