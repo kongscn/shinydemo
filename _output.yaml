@@ -1,0 +1,6 @@
+html_document:
+  theme: flatly
+  self_contained: false
+  toc: true
+  toc_depth: 2
+  number_sections: true

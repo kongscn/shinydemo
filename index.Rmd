@@ -1,0 +1,75 @@
+---
+title: "R Documents: RMarkdown & Shiny"
+author: "kongs"
+date: "Friday, July 05, 2014"
+runtime: shiny
+---
+
+# R Markdown
+
+This is an R Markdown document. 
+Markdown is a simple formatting syntax for authoring 
+HTML, PDF, and MS Word documents. 
+For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+You can easyily embed your R code into your document, 
+along with math expressions of course.
+
+$$ \text{speed} = \text{dist} + \text{dist}^2 $$
+
+```{r}
+library(ggplot2)
+summary(cars)
+lm(speed ~ dist + I(dist^2), data=cars)
+```
+
+You can embed plots too. It's also possible to hide the code generating it.
+
+```{r}
+qplot(carat, price, color=clarity, data=diamonds)
+```
+
+## Why it's amazing
+First it's simple and elegant. Note that I only embedded the R code
+into this documnt, not the outputs or figure files. 
+When I build the doc later, contents are automatically updated.
+So it's easy to change minor parts of your report when you change some logic.
+
+Another reason if the document is written in `markdown` and can be converted to 
+HTML, PDF and even MS Word formats. I can concentrate on the logics and contents.
+If I'm writing in $\LaTeX$, I have to watch those wired expressions all day long.
+
+It's very easy to share your document with your fellows. 
+You can share the source Rmd files with emails,
+a better way is to host your code on [Gihub](https://github.com/),
+and share the repository link.
+The most convinent way is to publish your code on the way and send your friend
+the direct link of the document. You can update the content later and 
+the page on the web is up to date too. 
+There are two free options: [RPubs](http://rpubs.com/)(Not in **CHINA**)
+and [Shinyapps](http://shiny.rstudio.com/).
+If you want to share a folder, that is multiple related seperated docs,
+the later is the only option. And in fact shiny is more than that.
+
+# Shiny
+
+What is shiny? In short, 
+R Markdown and shiny together support fully interactive documents. 
+Here is an example:
+
+Take a look at the following example.
+
+```{r, echo = FALSE}
+shinyAppDir(
+  "shiny_demo1",
+  options=list(
+    width="100%", height=480
+  )
+)
+```
+
+# Other Demos
+
+[Inspect](inspect.Rmd) Runtime env / Test
+
+Another example: [武汉天气](WuhanAQI.Rmd)

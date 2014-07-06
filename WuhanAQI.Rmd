@@ -1,0 +1,40 @@
+---
+title: "武汉空气质量案例分析"
+author: "kongs"
+date: "Saturday, July 05, 2014"
+runtime: shiny
+---
+
+# Introduction
+
+Do **not** read! Just spam text.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a libero venenatis dui imperdiet tincidunt. Integer tristique sit amet eros eu pellentesque. Maecenas in placerat orci. Mauris et turpis a sem venenatis semper in eu quam. Nulla luctus felis eget purus condimentum, ac consequat nulla iaculis. Pellentesque tellus dui, consequat et velit vitae, varius rutrum nulla. Vivamus nec neque dictum orci ornare cursus. Cras risus urna, volutpat non semper sit amet, vestibulum eget massa. Curabitur tristique aliquet purus in dignissim. Sed arcu nisl, tristique vitae malesuada quis, dictum nec risus. In sapien lectus, tempor sed arcu eu, iaculis bibendum lacus. Praesent dapibus aliquet mi, et sagittis diam mattis feugiat. Nulla mattis orci nec libero elementum consectetur.
+
+## Explore Data
+
+Curabitur rutrum massa mi, non consequat arcu vestibulum sed. Aliquam elementum ornare laoreet. Donec hendrerit quis velit sit amet accumsan. Ut ullamcorper erat cursus dolor sollicitudin, pretium lacinia mauris elementum. Pellentesque nisl velit, viverra a eros ac, vestibulum euismod lacus. Nullam tincidunt tortor sem, ultrices vehicula arcu hendrerit id. Donec eu porttitor est, non adipiscing nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+$$ \text{AQI} = \text{huha} + \text{排名}_{-1}^2 $$
+
+## Shiny app
+
+```{r, echo=FALSE}
+shinyAppDir(
+  "WuhanAQI",
+  options=list(
+    width="100%", height=550
+  )
+)
+```
+
+# Analysis 
+
+Quisque vel egestas massa. Donec aliquet, lectus volutpat sagittis lacinia, sem risus gravida lectus, vel laoreet eros felis non tortor. Nam ac egestas sem. In volutpat quam ac libero pretium tincidunt. Aliquam ut tincidunt libero. Cras pellentesque urna vel lorem pulvinar, non ornare sem sagittis. Mauris ut nunc sed lorem blandit tristique. Pellentesque vestibulum lorem vitae consectetur posuere. Integer ultricies, quam et suscipit consequat, massa ipsum tincidunt lacus, sed ultricies justo leo sed mauris. Mauris a pharetra mi, eget fringilla lorem. Praesent et suscipit libero, et accumsan quam. Vivamus convallis ante justo, a pretium purus gravida a. Nulla luctus imperdiet nisl. Pellentesque interdum leo eget purus pretium, ut semper ipsum ultrices. Maecenas tincidunt lobortis dui a auctor. Aliquam erat volutpat.
+
+# Conclusion
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a libero venenatis dui imperdiet tincidunt. Integer tristique sit amet eros eu pellentesque. Maecenas in placerat orci. Mauris et turpis a sem venenatis semper in eu quam. Nulla luctus felis eget purus condimentum, ac consequat nulla iaculis. Pellentesque tellus dui, consequat et velit vitae, varius rutrum nulla. Vivamus nec neque dictum orci ornare cursus. Cras risus urna, volutpat non semper sit amet, vestibulum eget massa. Curabitur tristique aliquet purus in dignissim. Sed arcu nisl, tristique vitae malesuada quis, dictum nec risus. In sapien lectus, tempor sed arcu eu, iaculis bibendum lacus. Praesent dapibus aliquet mi, et sagittis diam mattis feugiat. Nulla mattis orci nec libero elementum consectetur.
+
+[Back](index.Rmd) to index
+
