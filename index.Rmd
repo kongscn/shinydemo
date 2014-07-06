@@ -6,7 +6,7 @@ runtime: shiny
 ---
 
 **Note**: Links of the table of contents may be broken.
-This should be a bug of <shinyapps.io> or of the shiny server.
+This should be a bug of [shinyapps.io](shinyapps.io) or of the shiny server.
 Source file of this app can be fond at my 
 [repo](https://github.com/kongscn/shinydemo).
 
